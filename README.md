@@ -1,6 +1,7 @@
 # 🧚 Pixie-Trixie
 ## Image Encryption & Decryption Tool • Python GUI
-`Python 3.8+` `Pillow` `Security` `Pixel Scrambling`
+
+![Python](https://img.shields.io/badge/PYTHON-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white) ![Library](https://img.shields.io/badge/LIBRARY-PILLOW-orange?style=for-the-badge) ![Security](https://img.shields.io/badge/SECURITY-PIXEL%20SCRAMBLING-cyan?style=for-the-badge)
 
 ## 📖 Overview
 Pixie-Trixie is a specialized cybersecurity utility developed during my internship at Prodigy Infotech. It provides a robust yet user-friendly way to secure image data through advanced pixel manipulation. By combining Seeded Shuffling and Bitwise XOR operations, it transforms any standard image into unreadable digital static.
@@ -18,11 +19,13 @@ Pixie-Trixie is a specialized cybersecurity utility developed during my internsh
 | **01** | **Load Matrix** | Image is converted into a raw RGB pixel array. |
 | **02** | **Seeded Shuffle** | `random.seed(key)` ensures the shuffle is unique but reproducible. |
 | **03** | **XOR Shift** | Every pixel value $P$ is transformed: $P' = P \oplus (\text{key} \pmod{255})$. |
-| **04** | **Coordinate Swap** | Pixels are moved to new indices based on the generated seed. |
-| **05** | **Export** | The resulting "noise" image is saved as a lossless `.png`. |
 
 ## 🚀 Installation & Usage
+
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/Mohammedshezil/PRODIGY_CS_02.git](https://github.com/Mohammedshezil/PRODIGY_CS_02.git)
    cd PRODIGY_CS_02
+2 **Install Dependencies:**
+  ```bash
+  pip install -r requirements.txt
