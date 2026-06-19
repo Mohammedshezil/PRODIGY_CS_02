@@ -26,3 +26,18 @@ Pixie-Trixie is a specialized cybersecurity utility developed during my internsh
    ```bash
    git clone [https://github.com/Mohammedshezil/PRODIGY_CS_02.git](https://github.com/Mohammedshezil/PRODIGY_CS_02.git)
    cd PRODIGY_CS_02
+2. Install Dependencies:
+•1l 5G
+"67
+•••
+bash
+pip install -r requirements.txt
+3. Launch Pixie-Trixie:
+bash
+python pixie-trixie.py
+• Developer Credits
+Developer: Mohammed Shezil
+O
+Task: Prodigy Infotech Cybersecurity
+Internship - Task 02
+Pixie-Trixie: Making your art invisible to the prying eyes.
