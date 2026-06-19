@@ -19,6 +19,8 @@ Pixie-Trixie is a specialized cybersecurity utility developed during my internsh
 | **01** | **Load Matrix** | Image is converted into a raw RGB pixel array. |
 | **02** | **Seeded Shuffle** | `random.seed(key)` ensures the shuffle is unique but reproducible. |
 | **03** | **XOR Shift** | Every pixel value $P$ is transformed: $P' = P \oplus (\text{key} \pmod{255})$. |
+| **04** | **Coordinate Swap** | Pixels are moved to new indices based on the generated seed. |
+| **05** | **Export** | The resulting "noise" image is saved as a lossless `.png`. |
 
 ## 🚀 Installation & Usage
 
@@ -26,6 +28,3 @@ Pixie-Trixie is a specialized cybersecurity utility developed during my internsh
    ```bash
    git clone [https://github.com/Mohammedshezil/PRODIGY_CS_02.git](https://github.com/Mohammedshezil/PRODIGY_CS_02.git)
    cd PRODIGY_CS_02
-2 **Install Dependencies:**
-  ```bash
-  pip install -r requirements.txt
